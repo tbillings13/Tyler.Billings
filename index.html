@@ -54,7 +54,7 @@
 							<article class="post featured">
 								<header class="major">
 									<!-- <span class="date">Date Here</span> -->
-									<h2><a href="#">Background<br />
+									<h2><a>Background<br />
 									</a></h2>
 									<!-- <p>Aenean ornare velit lacus varius enim ullamcorper proin aliquam<br />
 									facilisis ante sed etiam magna interdum congue. Lorem ipsum dolor<br />
@@ -118,6 +118,7 @@
 									</p>
 									
 								</article>
+							</section>
 								
 
 						<!-- Footer -->
@@ -138,52 +139,50 @@
 					</div> -->
 
 				<!-- Footer -->
-					<footer id="footer">
-						 <section>
-							 <form method="post" action="MAILTO:tyler.billings00@gmail.com">
-								<div class="fields">
-									<div class="field">
-										<label for="name">Name</label>
-										<input type="text" name="name" id="name" />
-									</div>
-									<div class="field">
-										<label for="email">Email</label>
-										<input type="text" name="email" id="email" />
-									</div>
-									<div class="field">
-										<label for="message">Message</label>
-										<textarea name="message" id="message" rows="3"></textarea>
-									</div>
-								</div>
-								<ul class="actions">
-									<li><input type="submit" value="Send Message" /></li>
-								</ul>
-							</form>
+				<footer id="footer">
+					<section>
+							<!-- <meta charset="utf-8">
+							<meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+						<fieldset>
+							<div class="main">
+								<form action="MAILTO:tyler.billings00@gmail.com" method="post" enctype="text/plain">
+								<!-- <div class="field"> -->
+									<label for="name">Name</label>
+									<input type="text" name="name" placeholder="Name" required><br>
+									<!-- </div>
+								<div class="field"> -->
+									<label for="email">Email</label>
+									<input type="text" name="email" placeholder="Email" required><br>
+									<!-- </div> -->
+								<!-- <div class="field"> -->
+									<label for="message">Message</label>
+									<textarea name="message" id="message" rows="3"></textarea><br>
+								<!-- </div> -->
+										<input type="submit" name="submit" value="Send Message">
+
+								</form>
+							</div>
+						</fieldset>
+					</section>
+					<section class="split contact">
+						<section>
+							<h3>Phone</h3>
+							<p><a>(978) 621-2822</a></p>
 						</section>
-						<section class="split contact">
-							<!-- <section class="alt">
-								<h3>Address</h3>
-								<p>1234 Somewhere Road #87257<br />
-								Nashville, TN 00000-0000</p>
-							</section> -->
-							<section> 
-								<h3>Phone</h3>
-								<p><a>(978) 621-2822</a></p>
-							 </section>
-							<section> 
-								<h3>Email</h3>
-								<p><a >tyler.billings00@gmail.com</a></p>
-							</section> 
-							<section>
-								<h3>Social</h3>
-								<ul class="icons">
-									<li><a href="https://www.linkedin.com/in/tyler-billings-40192695/" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
-									<li><a href="assets/TBResume.pdf" class="icon fa-file-text"><span class="label">Resume</span></a></li>
-									<li><a href="https://github.com/tbillings13" class="icon fa-github"><span class="label">GitHub</span></a></li>
-								</ul>
-							</section>
-						<!-- </section> -->
-					</footer> 
+						<section>
+							<h3>Email</h3>
+							<p><a>tyler.billings00@gmail.com</a></p>
+						</section>
+						<section>
+							<h3>Social</h3>
+							<ul class="icons">
+								<li><a href="https://www.linkedin.com/in/tyler-billings-40192695/" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
+								<li><a href="assets/TBResume.pdf" class="icon fa-file-text"><span class="label">Resume</span></a></li>
+								<li><a href="https://github.com/tbillings13" class="icon fa-github"><span class="label">GitHub</span></a></li>
+							</ul>
+						</section>
+					</section>
+				</footer>
 
 				<!-- Copyright -->
 					<div id="copyright">
